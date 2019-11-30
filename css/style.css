@@ -1,16 +1,19 @@
 body, html {
     height: 100%;
+    
+}
+.index{
     background-image: url(/img/bg.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-}
+} 
 .offerte-panel {
     margin-top: 10%;
     padding: 5%;
     color: red;
     background-color: whitesmoke;
-    background: rgb(204, 204, 204); /* Fallback for older browsers without RGBA-support */
+    background: rgb(255, 255, 255); /* Fallback for older browsers without RGBA-support */
     background: rgba(255, 255, 255, 0.7);
 }
 .offerte-panel h4{
