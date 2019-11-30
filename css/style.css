@@ -8,6 +8,9 @@ body, html {
     background-repeat: no-repeat;
     background-size: cover;
 } 
+.overons{
+    background-color: gainsboro;
+}
 .offerte-panel {
     margin-top: 10%;
     padding: 5%;
