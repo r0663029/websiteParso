@@ -9,16 +9,26 @@ body, html {
     background-size: cover;
 } 
 .overons{
-    background-color: gainsboro;
+    background-color: whitesmoke;
+}
+.gratisofferte{
+    background-color: whitesmoke;
 }
 .offerte-panel {
     margin-top: 10%;
     padding: 5%;
     color: red;
-    background-color: whitesmoke;
+    background-color: white;
     background: rgb(255, 255, 255); /* Fallback for older browsers without RGBA-support */
     background: rgba(255, 255, 255, 0.7);
 }
 .offerte-panel h4{
     color: black;
+}
+.form-group{
+    display: inline-block;
+}
+
+#logo{
+    height: 80px;
 }

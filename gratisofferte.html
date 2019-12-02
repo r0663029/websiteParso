@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
-    <title>Material Design for Bootstrap</title>
+    <title>Gratis offerte - Parso Cleaning</title>
     <!-- MDB icon -->
     <link rel="icon" href="img/mdb-favicon.ico" type="image/x-icon">
     <!-- Font Awesome -->
@@ -17,30 +17,27 @@
     <link rel="stylesheet" href="css/style.css">
     
 </head>
-<body>
+<body class="gratisofferte">
 <!-- Navigation -->
 <nav class="navbar navbar-expand-lg navbar-light bg-white static-top">
     <div class="container">
-        <a class="navbar-brand" href="#">
-            <img src="img/logo.jpg" alt="">
+        <a class="navbar-brand" href="index.html">
+            <img id="logo" src="img/logo.jpg" alt="">
         </a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarResponsive">
         <ul class="navbar-nav ml-auto">
-            <li class="nav-item active">
-                <a class="nav-link" href="#">Home
+            <li class="nav-item">
+                <a class="nav-link" href="index.html">Home
                     <span class="sr-only">(current)</span>
                 </a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">Over ons</a>
+                    <a class="nav-link" href="overons.html">Over ons</a>
                 </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">Onze diensten</a>
-                </li>
-                <li class="nav-item">
+                <li class="nav-item active">
                     <a class="nav-link" href="#">Gratis offerte</a>
                 </li>
                 <li class="nav-item">
@@ -50,21 +47,58 @@
         </div>
   </div>
 </nav>
-<!-- Offerte Button -->
-<div class="panel panel-primary panel-transparent">
-    <div class="panel-heading">
-        <h2>PARSO CLEANING</h2>
+<!-- Default form register -->
+<form class="text-center border border-light p-5" method="post" action="https://formspree.io/xpzwrlrn">
+    <p class="h4 mb-4">Vrijblijvende offerte</p>
     
-        <button type="button" class="btn btn-outline-dark btn-lg">Gratis offerte</button>
+     <!-- Subject -->
+    <label>Ik ben een</label>
+    <select name="type" class="browser-default custom-select mb-4">
+        <option value="" disabled>Maak een keuze</option>
+        <option value="1">Bedrijf</option>
+        <option value="2">Particulier</option>
+    </select>
+    
+    <div class="form-row mb-4">
+        <div class="col">
+            <!-- First name -->
+            <input name="voornaam" type="text" id="defaultRegisterFormFirstName" class="form-control" placeholder="Voornaam">
+        </div>
+        <div class="col">
+            <!-- Last name -->
+            <input name="achternaam" type="text" id="defaultRegisterFormLastName" class="form-control" placeholder="Achternaam">
+        </div>
     </div>
-</div>
 
+    <!-- E-mail -->
+    <input name="e-mailadres" type="email" id="defaultRegisterFormEmail" class="form-control mb-4" placeholder="E-mailadres">
 
-<!-- /.container -->
-   
+    <!-- Telefoon -->
+    <input name="telefoon" type="text" id="defaultRegisterPhonePassword" class="form-control mb-4" placeholder="Telefoon" aria-describedby="defaultRegisterFormPhoneHelpBlock">
+    
+    <!-- Adres -->
+    <input name="adres" type="text" id="defaultRegisterAdress" class="form-control mb-4" placeholder="Adres">
+    
+    <div class="form-row mb-4">
+        <div class="col">
+            <!-- Postcode -->
+            <input name="postcode" type="text" id="defaultRegisterFormZipCode" class="form-control" placeholder="Postcode">
+        </div>
+        <div class="col">
+            <!-- Woonplaats -->
+            <input name="woonplaats" type="text" id="defaultRegisterFormCity" class="form-control" placeholder="Woonplaats">
+        </div>
+    </div>
+    
+    <!-- Omschrijving -->
+    <div class="md-form">
+        <textarea name="omschrijving" id="form7" class="md-textarea form-control" rows="5"></textarea>
+        <label for="form7">Omschrijving van het project</label>
+    </div>
 
-
- 
+    <!-- Sign up button -->
+    <button class="btn btn-info my-4 btn-block" type="submit">Verstuur</button>
+</form> 
 
     <!-- End your project here-->
 

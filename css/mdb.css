@@ -1546,7 +1546,7 @@ ul.stepper li.completed a .circle {
 }
 
 .info-color {
-    background-color: #33b5e5 !important
+    background-color: red !important
 }
 
 .info-color-dark {
@@ -1908,7 +1908,7 @@ button.bg-success:focus {
 }
 
 .bg-info {
-    background-color: #33b5e5 !important
+    background-color: red !important
 }
 
 a.bg-info:hover,
@@ -1919,7 +1919,7 @@ button.bg-info:focus {
 }
 
 .border-info {
-    border-color: #33b5e5 !important
+    border-color: red !important
 }
 
 .bg-default {
@@ -2105,11 +2105,11 @@ h6 {
 }
 
 .bq-info {
-    border-left: 3px solid #33b5e5 !important
+    border-left: 3px solid red !important
 }
 
 .bq-info .bq-title {
-    color: #33b5e5 !important
+    color: red !important
 }
 
 .h1-responsive {
@@ -2257,7 +2257,7 @@ a.text-success:focus {
 }
 
 .text-info {
-    color: #33b5e5 !important
+    color: red !important
 }
 
 a.text-info:hover,
@@ -6672,7 +6672,7 @@ table.table a.btn.btn-success {
 
 .btn-info {
     color: #fff;
-    background-color: #33b5e5 !important
+    background-color: red !important
 }
 
 .btn-info:hover {
@@ -6693,7 +6693,7 @@ table.table a.btn.btn-success {
 }
 
 .btn-info.dropdown-toggle {
-    background-color: #33b5e5 !important
+    background-color: red !important
 }
 
 .btn-info.dropdown-toggle:hover,
@@ -6717,12 +6717,12 @@ table.table a.btn.btn-success {
 }
 
 .info-ic {
-    color: #33b5e5 !important
+    color: red !important
 }
 
 .info-ic:hover,
 .info-ic:focus {
-    color: #33b5e5
+    color: red
 }
 
 a.btn:not([href]):not([tabindex]),
@@ -6736,9 +6736,9 @@ table.table a.btn.btn-info {
 }
 
 .btn-outline-info {
-    color: #33b5e5 !important;
+    color: red !important;
     background-color: transparent !important;
-    border: 2px solid #33b5e5 !important
+    border: 2px solid red !important
 }
 
 .btn-outline-info:hover,
@@ -6746,16 +6746,16 @@ table.table a.btn.btn-info {
 .btn-outline-info:active,
 .btn-outline-info:active:focus,
 .btn-outline-info.active {
-    color: #33b5e5 !important;
+    color: red !important;
     background-color: transparent !important;
-    border-color: #33b5e5 !important
+    border-color: red !important
 }
 
 .btn-outline-info:not([disabled]):not(.disabled):active,
 .btn-outline-info:not([disabled]):not(.disabled).active,
 .show>.btn-outline-info.dropdown-toggle {
     background-color: transparent !important;
-    border-color: #33b5e5 !important;
+    border-color: red !important;
     -webkit-box-shadow: 0 5px 11px 0 rgba(0, 0, 0, 0.18), 0 4px 15px 0 rgba(0, 0, 0, 0.15);
     box-shadow: 0 5px 11px 0 rgba(0, 0, 0, 0.18), 0 4px 15px 0 rgba(0, 0, 0, 0.15)
 }
@@ -10142,7 +10142,7 @@ table.table a.btn.btn-black {
 
 .badge-info {
     color: #fff !important;
-    background-color: #33b5e5 !important
+    background-color: red !important
 }
 
 .badge-default {
@@ -10412,17 +10412,17 @@ body.scrollable {
 }
 
 .modal-dialog.modal-notify.modal-info .modal-header {
-    background-color: #33b5e5
+    background-color: red
 }
 
 .modal-dialog.modal-notify.modal-info .fas,
 .modal-dialog.modal-notify.modal-info .fab,
 .modal-dialog.modal-notify.modal-info .far {
-    color: #33b5e5
+    color: red
 }
 
 .modal-dialog.modal-notify.modal-info .badge {
-    background-color: #33b5e5
+    background-color: red
 }
 
 .modal-dialog.modal-notify.modal-info .btn .fas,
@@ -10434,7 +10434,7 @@ body.scrollable {
 .modal-dialog.modal-notify.modal-info .btn.btn-outline-info .fas,
 .modal-dialog.modal-notify.modal-info .btn.btn-outline-info .fab,
 .modal-dialog.modal-notify.modal-info .btn.btn-outline-info .far {
-    color: #33b5e5
+    color: red
 }
 
 .modal {
